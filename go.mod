@@ -1,0 +1,14 @@
+module github.com/garxin/simple
+
+go 1.15
+
+require (
+	github.com/PuerkitoBio/goquery v1.5.1
+	github.com/iris-contrib/go.uuid v2.0.0+incompatible
+	github.com/iris-contrib/schema v0.0.6
+	github.com/kataras/iris/v12 v12.2.0-alpha
+	github.com/sirupsen/logrus v1.4.2
+	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
+	gorm.io/driver/mysql v1.0.1
+	gorm.io/gorm v1.20.1
+)
